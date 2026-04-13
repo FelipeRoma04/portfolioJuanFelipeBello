@@ -315,6 +315,7 @@
     .skill-tag img { width: 16px; height: 16px; object-fit: contain; flex-shrink: 0; filter: grayscale(1); }
     .skill-tag:hover { background: var(--text-1); color: #F9FAFB; border-color: var(--text-1); }
     .skill-tag:hover img { filter: brightness(0) invert(1); }
+    .skill-tag:hover svg { filter: brightness(0) invert(1); }
 
     /* ====== EDUCATION ====== */
     #education { background: var(--bg-card); }
